@@ -1,7 +1,7 @@
 :root {
    --white-color: #fff;
    --light-grey-color: #f2f2f2;
-   --medium-grey-color: #555;
+   --medium-grey-color: #777;
    --dark-grey-color: #333;
    --black-color: #000;
    --text-color: #888;
@@ -19,28 +19,47 @@ body {
    padding: 0;
    color: var(--text-color);
    background-color: var(--light-grey-color);
+   padding: 20px;
 }
 
 .avatar {
    width: 100%;
    border-radius: 50%;
    border: 3px solid var(--white-color);
+   z-index: 2;
+   position: relative;
+}
+
+.avatar::after {
+   content: "";
+   position: absolute;
+   grid-column: 1 / 2;
+   background-color: var(--medium-grey-color);
+   width: 2px;
+   height: 100%;
+   left: 0;
+   right: 0;
+   margin: 0 auto;
 }
 
 .notification-grid {
    display: grid;
    grid-template-columns: 50px 1fr;
+   grid-auto-rows: auto;
    gap: 1rem;
 }
 
-.notification-card:before {
+/* .notification-grid:before {
    content: "";
-   grid-column: 1;
-   grid-row: 1 / -1;
-   background-color: red;
-   width: 100%;
+   position: absolute;
+   grid-column: 1 / 2;
+   background-color: var(--medium-grey-color);
+   width: 2px;
    height: 100%;
-}
+   left: 0;
+   right: 0;
+   margin: 0 auto;
+} */
 
 .notification-card {
    background-color: var(--white-color);
