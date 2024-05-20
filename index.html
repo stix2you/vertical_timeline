@@ -9,57 +9,122 @@
 </head>
 
 <body>
-   <!-- Sections breakdown: Day > Header > Grid-of-notifications (comprised of image left and notifcations on right )-->
-   <div class="notification-grid">
-      <img class="avatar" src="https://source.unsplash.com/rDEOVtE7vOs">
-      <div class="notification-card">
-         <div class="notification-header">
-            <svg class="icon" xmlns="http://www.w3.org/2000/svg"
-               viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-               <path
-                  d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-            </svg>
-            <div class="notification-title">Title of notification here</div>
-            <div class="notification-time">12:00pm</div>
+   <section class="notification-section">
+      <div class="group-header">
+         <div class="group-title">Today</div>
+         <div class="group-date">Tuesday, Jul 11, 2021</div>
+      </div>
+      <div class="notification-grid">
+         <div class="avatar">
+            <img src="https://source.unsplash.com/MTZTGvDsHFY" />
          </div>
-         <div class="notification-content">
-            This is the content of the notification, message here.
+         <div class="notification-card">
+            <div class="notification-header">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                     d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+               </svg>
+               <div class="notification-title">John liked your photo</div>
+               <div class="notification-time">9:00am</div>
+            </div>
+            <div class="notification-content">
+               The photo of you and a dog was liked by John.
+            </div>
+         </div>
+         <div class="avatar">
+            <img src="https://source.unsplash.com/MTZTGvDsHFY" />
+         </div>
+         <div class="notification-card">
+            <div class="notification-header">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                     d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+               </svg>
+               <div class="notification-title">John liked your photo</div>
+               <div class="notification-time">9:00am</div>
+            </div>
+         </div>
+         <div class="avatar">
+            <img src="https://source.unsplash.com/MTZTGvDsHFY" />
+         </div>
+         <div class="notification-card">
+            <div class="notification-header">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                     d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+               </svg>
+               <div class="notification-title">John liked your photo</div>
+               <div class="notification-time">9:00am</div>
+            </div>
+            <div class="notification-content">
+               The photo of you and a dog was liked by John.
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit doloremque odit magni eos soluta
+               neque sunt, autem maxime tempore!
+            </div>
          </div>
       </div>
-      <img class="avatar" src="https://source.unsplash.com/rDEOVtE7vOs">
-      <div class="notification-card">
-         <div class="notification-header">
-            <svg class="icon" xmlns="http://www.w3.org/2000/svg"
-               viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-               <path
-                  d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-            </svg>
-            <div class="notification-title">Title of notification here</div>
-            <div class="notification-time">12:00pm</div>
+   </section>
+   <section class="notification-section">
+      <div class="group-header">
+         <div class="group-title">Yesterday</div>
+         <div class="group-date">Tuesday, Jul 10, 2021</div>
+      </div>
+      <div class="notification-grid">
+         <div class="avatar">
+            <img src="https://source.unsplash.com/MTZTGvDsHFY" />
          </div>
-         <div class="notification-content">
+         <div class="notification-card">
+            <div class="notification-header">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                     d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+               </svg>
+               <div class="notification-title">John liked your photo</div>
+               <div class="notification-time">9:00am</div>
+            </div>
+            <div class="notification-content">
+               The photo of you and a dog was liked by John.
+            </div>
+         </div>
+         <div class="avatar">
+            <img src="https://source.unsplash.com/MTZTGvDsHFY" />
+         </div>
+         <div class="notification-card">
+            <div class="notification-header">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                     d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+               </svg>
+               <div class="notification-title">John liked your photo</div>
+               <div class="notification-time">9:00am</div>
+            </div>
+         </div>
+         <div class="avatar">
+            <img src="https://source.unsplash.com/MTZTGvDsHFY" />
+         </div>
+         <div class="notification-card">
+            <div class="notification-header">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                     d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
+               </svg>
+               <div class="notification-title">John liked your photo</div>
+               <div class="notification-time">9:00am</div>
+            </div>
+            <div class="notification-content">
+               The photo of you and a dog was liked by John.
+               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus sit doloremque odit magni eos soluta
+               neque sunt, autem maxime tempore!
+            </div>
          </div>
       </div>
-      <img class="avatar" src="https://source.unsplash.com/rDEOVtE7vOs">
-      <div class="notification-card">
-         <div class="notification-header">
-            <svg class="icon" xmlns="http://www.w3.org/2000/svg"
-               viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-               <path
-                  d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v25.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm0 96c61.9 0 112 50.1 112 112v25.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V208c0-61.9 50.1-112 112-112zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z" />
-            </svg>
-            <div class="notification-title">Title of notification here</div>
-            <div class="notification-time">12:00pm</div>
-         </div>
-         <div class="notification-content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias id suscipit rerum atque iusto animi, rem
-            optio aut itaque ipsam ex dolorem tempora aliquam nesciunt minima dolorum? Necessitatibus, deserunt? Dolor!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda accusamus amet doloribus ratione
-            pariatur ducimus praesentium hic quis, vel commodi, qui voluptatum ut beatae nihil facilis cum, veritatis
-            unde!
-         </div>
-      </div>
-   </div>
+   </section>
 </body>
 
 </html>
